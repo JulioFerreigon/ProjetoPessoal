@@ -1,0 +1,40 @@
+#body {
+    background-image: linear-gradient(to right, #851d86, #a640a6)  ;
+}
+
+#homepage {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 2f;
+    grid-template-rows: 350px;
+    grid-template-areas:
+     "image1 image2 image2"
+     "texto button button";
+    justify-content: column;
+}
+
+#homepage .academic-homepage .Name {
+   grid-area: image1;
+   text-align: initial;
+   align-self: center; 
+}
+
+#homepage .academic-homepage .Image {
+    grid-area: image2;
+    height: 150px;
+}
+
+#homepage .slogan {
+    grid-area: texto;
+
+}
+
+#homepage .buttons-homepage {
+    grid-area: button;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.title-homepage p {
+    font-size: 22px;
+}
