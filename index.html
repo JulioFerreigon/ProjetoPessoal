@@ -6,26 +6,40 @@
     <title>Página Principal</title>
 
     <link rel="stylesheet" href="/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">  
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
 
 </head>
 <body id="body">
 
-    <div id="homepage">
-        <div class="academic-homepage">
-            <img src="/images/AcademiaBruttus.png" alt="AcademiaBruttus" class="Name">
-            <img src="/images/academia-homepage.jpg" alt="AcademiaImagem" class="Image">
+    <div id="container">
+        <div class="img-wrapper">
+            <img src="/images/academia-homepage.jpg" alt="AcademiaImagem">
+        </div>
+        <div class="icon-wrapper">
+            <img src="/images/icon-academic.png" alt="">
         </div>
 
-        <h2 class="slogan"> Sua Academia Inteligente </h2>
-
-        <div class="buttons-homepage">
+        <div class="objects-homepage">
+            <h1>Performance Science</h1>
+            <p>Sua Academia Inteligente</p>
             <button type="button" class="consult">
-                Consultar Dados
+                <span style="font-size: 1rem; color: black;">
+                    <i class="far fa-address-book"></i>
+                  </span>Consultar Dados
             </button>
+
             <button type="button" class="register">
+                <span style="font-size: 1rem; color: black;"> 
+                    <i class="fas fa-user-edit"></i>
+                   </span> 
                 Registrar
-            </button>
+            </button>        
         </div>
+
     </div>
 </body>
 </html>
