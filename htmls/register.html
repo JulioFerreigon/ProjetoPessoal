@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+    <link rel="stylesheet" href="/style/register-page.css">
+
+</head>
+<body id="body">
+  <div class="container">
+        <div class="header">       
+            <a href="/htmls/index.html" class="back"><img src="/images/arrow.png" alt="back"></a>
+            <h1>Registrar  <span style="font-size: 2rem; color: #EDE8F1;"> 
+                <i class="fas fa-user-edit"></i> </h1>
+            <div class="image-icon">
+                <img src="/images/icon-academic.png" alt="icon-academic">   
+            </div>
+        </div> 
+    <div class="bar-object">
+        <legend class="name-bar">
+            Digite seu nome:</br>
+            <input type="text" name="name-bar" required>
+        </legend>
+        <legend class="date-bar">
+            Data de Nascimento:</br>
+            <input type="date" name="date-bar" required> 
+        </legend>
+        <label for="sex" class="sex-option">
+            Selecione seu sexo:</br>
+            <select name="sex" id="sex" required>
+                <option value="1" name="M">
+                    Masculino
+                </option>
+                <option value="2" name="F">
+                    Feminino
+                </option>
+            </select>
+        </label>
+        <legend class="adress-bar">
+            Digite seu Endereço:</br>
+            <input type="text" name="adress-bar" required>
+        </legend>
+        <legend class="cpf-bar">
+            Digite seu CPF:</br>
+            <input type="text" name="cpf-bar" required>
+        </legend>
+        <legend class="id-bar">
+            Digite sua Identidade:</br>
+            <input type="text" name="id-bar" required>
+        </legend>
+        <div class="local">
+            <label for="local">
+                Selecione a academia que pretende frequentar:</br>
+                <select name="local" id="local">
+                    <option value="1" name="Taquara">Taquara</option>
+                    <option value="2" name="Curicica">Curicica</option>
+                    <option value="3" name="Barra">Barra da Tijuca</option>
+                    <option value="4" name="Madureira">Madureira</option>
+                </select>
+            </label>
+        </div>
+        <div class="plan">
+            <label for="plan">
+                Selecione um Plano:</br>
+                <select name="plan" id="plan" required>
+                    <option value="1" name="Basico">Básico</option>
+                    <option value="2" name="Normal">Normal</option>
+                    <option value="3" name="Plus">Plus</option>
+                    <option value="4" name="Ultra">Ultra</option>
+                    <option value="5" name="Mega">Mega</option>
+                </select>
+                <a href="/htmls/plans.html">Consultar Planos</a>
+            </label>
+        </div>
+        <a href="/html/avaliation.html" class="avaliation-option">Avaliação Física</a>
+
+        <button class="button-env" type="submit">Enviar Registro</button>
+    </div>
+  </div>
+</body>
+</html>
