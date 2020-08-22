@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600&family=Nunito:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
+
+* {
+ margin: 0;
+ padding: 0;   
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, black, rgb(44, 43, 43));
+    overflow-x: hidden;
+    overflow-y: scroll;
+    
+}
+
+#container header {
+    height: 25vh;
+}
+
+#container header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background: #4a00e0;
+}
+
+header a {
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 17vh;
+    width: 2rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .back img{
+    padding-left: 8px;
+    width: 2.5rem;
+    height: 1.5rem;
+    transition-duration: 0.2s;
+ }
+
+ header .back img:hover {
+     opacity: 0.5;
+ }
+
+ header h1 {
+     margin-bottom:15vh;
+     font: 2rem;
+     font-size: 3rem;
+     font-family: "Nunito";
+     color: white;
+     text-shadow: black 1px 2px;  
+ }
+
+ header .img-icon .icon-academic img {
+    height: 2rem;
+    padding-top: 10px;
+    margin-right: 70px;
+}
+
+#container .plans {
+    display: flex;
+
+}
+
+#container .plans .title {
+    color:white;
+}
+
+#container .plans .title {
+    width: 30%;
+}
+
+#container .plans .title h1 {
+    font-size:3.5rem;
+    font-family: "Nunito";
+    line-height: 60px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+#container .plans .title p {
+    font-size: 1.5rem;
+    font-family: "Baloo 2";
+    line-height: 20px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+}
+
+.plans .plan1 {
+    color: white;
+    position: relative;
+}
+
+#container .plans .plan1 {
+    padding-left: 5rem;
+    padding-top: 2rem;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+#container .plans .plan1 .cust1 {
+    position: absolute;
+    display: grid;
+    align-content: center;
+    color: white;
+    background: #4a00e0;
+    width: 180px;
+    height: 180px;
+    border: 1px;
+    border-radius: 6rem;
+    margin-left: 5rem;
+    margin-top: 1.3rem;
+    font-family: "Nunito";
+    text-transform: uppercase;
+}
+.cust1 h1 {
+    padding-left: 2rem;
+    font-size: 0.9rem;
+    letter-spacing: 0;
+    text-shadow: black 0px 0px;
+    font-weight: 900;
+}
+
+.cust1 p small {
+    font-size: 0.8rem;
+}
+
+.cust1 p {
+    padding-left: 1.5rem;
+    letter-spacing: 0;
+    font-size: 2.5rem;
+}
+
+.cust1 h2{
+    font-size: 1rem;
+    padding-left: 3.49rem;
+}
+
+#container .plans .plan1 .disc1 {
+    padding-top: 10rem;
+    padding-bottom: 7rem;
+    padding-left: 15px;
+    padding-right: 20px;    
+    height: 12rem;
+    width: 20rem;
+    background: white;
+    border-radius: 0.5rem;
+    color: black;
+    font-family: "Nunito";
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+#container .plans .plan1 .disc1>p:not(:last-child) {
+    border-bottom: 1px solid #E6E6EB;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 6px;
+}
+
+#container .plans .plan1 .disc1 .last-text1 {
+    padding-top: 10px;
+    padding-left: 6px;
+    line-height: 20px;
+}
+
+/*apartir daqui é o 2*/
+
+.plans .plan2 {
+    color: white;
+    position: relative;
+}
+
+#container .plans .plan2 {
+    padding-left: 5rem;
+    padding-top: 2rem;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+#container .plans .plan2 .cust2 {
+    position: absolute;
+    display: grid;
+    align-content: center;
+    color: white;
+    background: #4a00e0;
+    width: 180px;
+    height: 180px;
+    border: 1px;
+    border-radius: 6rem;
+    margin-left: 5rem;
+    margin-top: 1.3rem;
+    font-family: "Nunito";
+    text-transform: uppercase;
+}
+.cust2 h1 {
+    padding-left: 2.8rem;
+    font-size: 0.9rem;
+    letter-spacing: 0;
+    text-shadow: black 0px 0px;
+    font-weight: 900;
+}
+
+.cust2 p small {
+    font-size: 0.8rem;
+}
+
+.cust2 p {
+    padding-left: 1.5rem;
+    letter-spacing: 0;
+    font-size: 2.5rem;
+}
+
+.cust2 h2{
+    font-size: 1rem;
+    padding-left: 3.49rem;
+}
+
+#container .plans .plan2 .disc2 {
+    padding-top: 10rem;
+    padding-bottom: 7rem;
+    padding-left: 15px;
+    padding-right: 20px;    
+    height: 12rem;
+    width: 20rem;
+    background: white;
+    border-radius: 0.5rem;
+    color: black;
+    font-family: "Nunito";
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+#container .plans .plan2 .disc2 .acess {
+    background: #4a00e0;
+    color: white;
+    padding: 5px;
+    border-radius: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.plans .plan2 .disc2 .acess p {
+    padding-left: 5px;
+}
+
+#container .plans .plan2 .disc2>p:not(:last-child) {
+    border-bottom: 1px solid #E6E6EB;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 6px;
+}
+
+#container .plans .plan2 .disc2 .last-text2 {
+    padding-top: 10px;
+    padding-left: 6px;
+    line-height: 20px;
+}
+
