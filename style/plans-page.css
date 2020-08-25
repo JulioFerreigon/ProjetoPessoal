@@ -30,7 +30,7 @@ header {
     background: #4a00e0;
 }
 
-header a {
+/*header a {
     margin-left: 8px;
     margin-top: 8px;
     margin-bottom: 17vh;
@@ -39,13 +39,23 @@ header a {
     display: flex;
     align-items: center;
     justify-content: center;
+} */
+
+header .back {
+    height: 95%;
+    margin-left: 0.5rem;
 }
 
+
 header .back img{
+    padding-top: 8px;
     padding-left: 8px;
     width: 2.5rem;
     height: 1.5rem;
-    transition-duration: 0.2s;
+   /* padding-left: 8px;
+    width: 2.5rem;
+    height: 1.5rem;
+    transition-duration: 0.2s; */
  }
 
  header .back img:hover {
@@ -62,22 +72,26 @@ header .back img{
  }
 
  header .img-icon .icon-academic img {
+    padding-top: 3px;
     height: 2rem;
-    padding-top: 10px;
-    margin-right: 70px;
+    margin-right: 1.55rem;
+    margin-bottom: 17vh;
 }
 
 #container .plans {
-    display: flex;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 2fr 2fr;
+    column-gap: 40px;
+    row-gap: 40px;
+}
 
+#container .plans .title {
+    grid-row: 1 / span 2;
 }
 
 #container .plans .title {
     color:white;
-}
-
-#container .plans .title {
-    width: 30%;
 }
 
 #container .plans .title h1 {
@@ -105,7 +119,7 @@ header .back img{
 
 #container .plans .plan1 {
     padding-left: 5rem;
-    padding-top: 2rem;
+    padding-top: 4.01rem;
     display: grid;
     justify-items: center;
     align-content: center;
@@ -151,10 +165,10 @@ header .back img{
 
 #container .plans .plan1 .disc1 {
     padding-top: 10rem;
-    padding-bottom: 7rem;
+    padding-bottom: 8rem;
     padding-left: 15px;
     padding-right: 20px;    
-    height: 12rem;
+    height: 16rem;
     width: 20rem;
     background: white;
     border-radius: 0.5rem;
@@ -163,6 +177,7 @@ header .back img{
     font-size: 1.1rem;
     font-weight: 900;
 }
+
 #container .plans .plan1 .disc1>p:not(:last-child) {
     border-bottom: 1px solid #E6E6EB;
     padding-bottom: 10px;
@@ -185,7 +200,7 @@ header .back img{
 
 #container .plans .plan2 {
     padding-left: 5rem;
-    padding-top: 2rem;
+    padding-top: 4rem;
     display: grid;
     justify-items: center;
     align-content: center;
@@ -201,10 +216,11 @@ header .back img{
     height: 180px;
     border: 1px;
     border-radius: 6rem;
-    margin-left: 5rem;
+    margin-left: 6rem;
     margin-top: 1.3rem;
     font-family: "Nunito";
     text-transform: uppercase;
+    margin-right: 38%;
 }
 .cust2 h1 {
     padding-left: 2.8rem;
@@ -231,10 +247,10 @@ header .back img{
 
 #container .plans .plan2 .disc2 {
     padding-top: 10rem;
-    padding-bottom: 7rem;
+    padding-bottom: 8rem;
     padding-left: 15px;
     padding-right: 20px;    
-    height: 12rem;
+    height: 16rem;
     width: 20rem;
     background: white;
     border-radius: 0.5rem;
@@ -242,6 +258,7 @@ header .back img{
     font-family: "Nunito";
     font-size: 1.1rem;
     font-weight: 900;
+    margin-right: 75%;
 }
 
 #container .plans .plan2 .disc2 .acess {
@@ -269,3 +286,190 @@ header .back img{
     line-height: 20px;
 }
 
+/*apartir daqui é o 3*/
+
+.plans .plan3 {
+    color: white;
+    position: relative;
+}
+
+#container .plans .plan3 {
+    padding-left: 5rem;
+    padding-top: 4rem;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+#container .plans .plan3 .cust3 {
+    position: absolute;
+    display: grid;
+    align-content: center;
+    color: white;
+    background: #4a00e0;
+    width: 180px;
+    height: 180px;
+    border: 1px;
+    border-radius: 6rem;
+    margin-left: 5rem;
+    margin-top: 1.3rem;
+    font-family: "Nunito";
+    text-transform: uppercase;
+}
+.cust3 h1 {
+    padding-left: 2.6rem;
+    font-size: 0.9rem;
+    letter-spacing: 0;
+    text-shadow: black 0px 0px;
+    font-weight: 900;
+}
+
+.cust3 p small {
+    font-size: 0.8rem;
+}
+
+.cust3 p {
+    padding-left: 1.5rem;
+    letter-spacing: 0;
+    font-size: 2.5rem;
+}
+
+.cust3 h2{
+    font-size: 1rem;
+    padding-left: 3.37rem;
+}
+
+#container .plans .plan3 .disc3 {
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+    padding-left: 15px;
+    padding-right: 20px;    
+    height: 16rem;
+    width: 20rem;
+    background: white;
+    border-radius: 0.5rem;
+    color: black;
+    font-family: "Nunito";
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+#container .plans .plan3 .disc3 .acess {
+    background: #4a00e0;
+    color: white;
+    padding: 5px;
+    border-radius: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.plans .plan3 .disc3 .acess p {
+    padding-left: 5px;
+}
+
+#container .plans .plan3 .disc3>p:not(:last-child) {
+    border-bottom: 1px solid #E6E6EB;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 6px;
+}
+
+#container .plans .plan3 .disc3 .last-text3 {
+    padding-top: 10px;
+    padding-left: 6px;
+    line-height: 20px;
+}
+
+/*Apartir daqui é o 4*/
+
+.plans .plan4 {
+    color: white;
+    position: relative;
+}
+
+#container .plans .plan4 {
+    padding-left: 5rem;
+    padding-top: 4rem;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+#container .plans .plan4 .cust4 {
+    position: absolute;
+    display: grid;
+    align-content: center;
+    color: white;
+    background: #4a00e0;
+    width: 180px;
+    height: 180px;
+    border: 1px;
+    border-radius: 6rem;
+    margin-left: 6rem;
+    margin-top: 1.3rem;
+    font-family: "Nunito";
+    text-transform: uppercase;
+    margin-right: 38%;
+}
+.cust4 h1 {
+    padding-left: 2.8rem;
+    font-size: 0.9rem;
+    letter-spacing: 0;
+    text-shadow: black 0px 0px;
+    font-weight: 900;
+}
+
+.cust4 p small {
+    font-size: 0.8rem;
+}
+
+.cust4 p {
+    padding-left: 1.1rem;
+    letter-spacing: 0;
+    font-size: 2.5rem;
+}
+
+.cust4 h2{
+    font-size: 1rem;
+    padding-left: 3.49rem;
+}
+
+#container .plans .plan4 .disc4 {
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+    padding-left: 15px;
+    padding-right: 20px;    
+    height: 16rem;
+    width: 20rem;
+    background: white;
+    border-radius: 0.5rem;
+    color: black;
+    font-family: "Nunito";
+    font-size: 1.1rem;
+    font-weight: 900;
+    margin-right: 75%;
+}
+
+#container .plans .plan4 .disc4 .acess {
+    background: #4a00e0;
+    color: white;
+    padding: 5px;
+    border-radius: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.plans .plan4 .disc4 .acess p {
+    padding-left: 5px;
+}
+
+#container .plans .plan4 .disc4>p:not(:last-child) {
+    border-bottom: 1px solid #E6E6EB;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 6px;
+}
+
+#container .plans .plan4 .disc4 .last-text4 {
+    padding-top: 10px;
+    padding-left: 6px;
+    line-height: 20px;
+}
